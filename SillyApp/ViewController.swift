@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     {
         let newRed = CGFloat(Double(sender.value))
         
-        view.backgroundColor = UIColor(red: newRed, green: CGFloat(0.314), blue: CGFloat(0.745), alpha: 0.1)
+        view.backgroundColor = UIColor(red: newRed, green: CGFloat(1.0), blue: CGFloat(0.745), alpha: 0.1)
     }
     @IBAction func ButtonColor(sender: AnyObject)
     {
@@ -57,11 +57,11 @@ class ViewController: UIViewController {
             
             view.backgroundColor = UIColor(red: newRed, green: newGreen, blue: newBlue, alpha: 1)
         }
-        else if (color == "white")
+        else if(color == "white")
         {
             view.backgroundColor = UIColor.whiteColor()
         }
-        else if (color == "black")
+        else if(color == "black")
         {
             view.backgroundColor = UIColor.blackColor()
         }

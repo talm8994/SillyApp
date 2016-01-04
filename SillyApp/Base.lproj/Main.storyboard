@@ -14,42 +14,36 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9F-LX-jmg">
-                                <rect key="frame" x="49" y="68" width="90" height="30"/>
-                                <state key="normal" title="change color"/>
-                                <connections>
-                                    <action selector="ButtonColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twJ-gz-DXB"/>
-                                </connections>
-                            </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PGr-85-nSx">
-                                <rect key="frame" x="35" y="218" width="118" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PGr-85-nSx">
+                                <rect key="frame" x="34" y="654" width="367" height="31"/>
                                 <connections>
                                     <action selector="Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="MS3-Yb-sSK"/>
                                 </connections>
                             </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mo3-NJ-N4g">
-                                <rect key="frame" x="265" y="357" width="51" height="31"/>
+                                <rect key="frame" x="183" y="352" width="51" height="31"/>
                                 <connections>
-                                    <action selector="Switch:" destination="BYZ-38-t0r" eventType="valueChanged" id="yQw-mt-MZ3"/>
+                                    <action selector="ColorSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="0o7-9U-kIy"/>
                                 </connections>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMQ-XB-77z">
-                                <rect key="frame" x="76" y="143" width="37" height="30"/>
-                                <state key="normal" title="white"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9F-LX-jmg">
+                                <rect key="frame" x="-23" y="86" width="460" height="30"/>
+                                <state key="normal" title="change color"/>
                                 <connections>
-                                    <action selector="blackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P56-ba-8ZC"/>
+                                    <action selector="ButtonColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twJ-gz-DXB"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-242" y="395"/>
+            <point key="canvasLocation" x="-338" y="327"/>
         </scene>
     </scenes>
 </document>
